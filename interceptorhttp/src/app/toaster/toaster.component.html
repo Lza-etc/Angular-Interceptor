@@ -1,0 +1,7 @@
+<div
+  *ngIf="toast"
+  [ngClass]="['toaster', toast.type]"
+  (click)="RemoveToaster()"
+>
+  {{ toast.message }}
+</div>

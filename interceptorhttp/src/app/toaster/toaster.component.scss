@@ -1,0 +1,19 @@
+.toaster {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 13px 20px;
+  border-radius: 3px;
+  margin: 10px;
+  width: 200px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.success {
+  background-color: green;
+}
+
+.error {
+  background-color: red;
+}
